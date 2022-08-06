@@ -83,3 +83,11 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 BOARD_HAS_FLIPPED_SCREEN:= true
+
+# OrangeFox Recovery
+#OF_FL_PATH1 := /sys/class/leds/torch-light
+#FOX_USE_TAR_BINARY := 1
+OF_MAINTAINER := Momo
+OF_FLASHLIGHT_ENABLE := false
+OF_MAINTAINER_AVATAR := device/meizu/M5Note/Maintainer.png
+FOX_USE_SPECIFIC_MAGISK_ZIP := device/meizu/M5Note/Magisk-v25.2.zip
