@@ -83,10 +83,18 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 BOARD_HAS_FLIPPED_SCREEN:= true
-TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+TW_DEFAULT_LANGUAGE := zh_CN
+TW_EXCLUDE_TWRPAPP := false
+TW_INCLUDE_NTFS_3G := true
+TW_DEVICE_VERSION :=  by Momo5418
 
 # OrangeFox Recovery
 OF_MAINTAINER := Momo5418
 OF_FLASHLIGHT_ENABLE := false
 OF_MAINTAINER_AVATAR := device/meizu/M5Note/Maintainer.png
+
+# Debug
+TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
