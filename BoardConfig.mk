@@ -88,12 +88,6 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_DEFAULT_LANGUAGE := zh_CN
 TW_EXCLUDE_TWRPAPP := false
 TW_INCLUDE_NTFS_3G := true
-TW_DEVICE_VERSION :=  by Momo5418
-
-# OrangeFox Recovery
-OF_MAINTAINER := Momo5418
-OF_FLASHLIGHT_ENABLE := false
-OF_MAINTAINER_AVATAR := device/meizu/M5Note/Maintainer.png
 
 # Debug
 TWRP_INCLUDE_LOGCAT := true
